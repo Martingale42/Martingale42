@@ -46,8 +46,23 @@ Most of my commits are in private repositories:
 
 ## How I work
 
-Design document first, then tickets, implementation in isolated worktrees, a
-three-axis review before merge, and CI as the gate. Much of it is agent-assisted,
-with a skill set I maintain for that purpose.
+I run AI coding agents the way a lead runs a team: I write the spec, they
+write the code, and nothing ships without review.
+
+- **Spec first.** Every change starts as a design document, is cut into
+  tickets with explicit dependencies, and is implemented by agents in isolated
+  worktrees. Nothing merges without a three-axis review (spec, standards,
+  attack) and green CI. Several of the repositories above went from empty to
+  production this way in weeks.
+- **My own toolkit.** I maintain a set of 25 agent skills that cover the whole
+  loop, from interviewing the owner to landing the branch, with a measurement
+  harness that checks each skill changes agent behaviour the way it claims.
+  Public release is in progress.
+- **My own stack.** The agents run on a self-hosted inference stack (vLLM and
+  llama.cpp on my own GPUs) as well as hosted models, so I know what the
+  models cost, where they fail, and how to route around it.
+- **Documents are the memory.** Every repository carries a status page,
+  decision records and a glossary, so a person or an agent can pick the work
+  up cold.
 
 [LinkedIn](https://www.linkedin.com/in/cy-hsieh)
