@@ -10,27 +10,18 @@ London and remote roles.
 
 - **[NautilusTrader](https://github.com/nautechsystems/nautilus_trader)** —
   [13 merged pull requests](https://github.com/nautechsystems/nautilus_trader/pulls?q=is%3Apr+is%3Amerged+author%3AMartingale42)
-  since mid-2026. Bybit adapter: public liquidation custom data, WebSocket
-  subscription state on reconnect, a non-terminating cursor in pagination.
-  Portfolio statistics: VaR, Expected Shortfall, Omega ratio, tail ratio,
-  skewness and kurtosis, plus rolling-window fixes in several indicators.
+  to the open-source trading engine: exchange connectivity (Bybit) and
+  portfolio risk statistics.
 - **[sinopac-nt-community](https://github.com/Martingale42/sinopac-nt-community)** —
-  community NautilusTrader adapter for SinoPac (Taiwan TWSE, TPEX and TAIFEX).
-  Rust core with Python bindings through PyO3, released to
-  [PyPI](https://pypi.org/project/sinopac-nt-community/) and
-  [crates.io](https://crates.io/crates/sinopac-nt-community) from CI. A
-  redesign is in progress. Its gateway process is
-  [shioaji-server](https://github.com/Martingale42/shioaji-server) (archived).
+  NautilusTrader adapter for the Taiwan stock and futures markets, in Rust
+  with Python bindings; published on PyPI and crates.io.
 - **[nt-parquet-writer-bench](https://github.com/Martingale42/nt-parquet-writer-bench)** —
-  measures how Parquet writer settings change NautilusTrader catalog size and
-  read cost on real Tardis data, verified row for row. It found that parquet-rs
-  never dictionary-encodes decimal columns under the default writer version.
+  benchmark of Parquet storage settings for market data; found a default that
+  wastes space on every price column.
 - **[small-vLLM](https://github.com/Yu-TingLee/small-vLLM)** — a C++/CUDA LLM
-  inference engine on LibTorch (paged KV cache, continuous batching, custom
-  attention kernels). I contribute alongside the author: safetensors weight
-  loading, ops dispatch and RMSNorm, build and CI tooling.
-- **[nautilus-dev](https://github.com/Martingale42/nautilus-dev)** — agent
-  skills for building with and on NautilusTrader, in Python and Rust.
+  inference engine, where I contribute alongside the author.
+- **[nautilus-dev](https://github.com/Martingale42/nautilus-dev)** — AI agent
+  skills for developing on NautilusTrader.
 
 ## Private work
 
