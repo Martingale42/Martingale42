@@ -34,22 +34,16 @@ London and remote roles.
 
 ## Private work
 
-Most of my commits are in private repositories. What they contain:
+Most of my commits are in private repositories:
 
-- **Live trading node** on Polymarket, running on an AWS host on
-  NautilusTrader 2.0 since October 2026. Sandbox-to-real-money gate, capital
-  cap, kill switch, and every onset and order recorded to Parquet so the replay
-  can be compared with live fills order by order.
-- **Research lab** where NautilusTrader v2 is the only carrier of backtest and
-  trading logic: replays of Bybit and Binance perpetual L2 data, Polymarket
-  up/down markets, US ETF and TAIFEX bars, with venue-specific fee models and a
-  measured throughput budget. uv workspace, Rust extension, typed Python with
-  a committed type-check baseline, CI on every pull request.
-- **Multi-strategy live node fleet** on NautilusTrader v2's Rust core: one
-  node per strategy, Docker deployment, cross-process bus, 61-hour soak on
-  Bybit testnet.
-- **Trading host infrastructure as code** for AWS EC2, with a latency harness
-  against the Tokyo public feeds.
+- A **live trading node** on Polymarket, on NautilusTrader 2.0 on AWS, since
+  October 2026.
+- A **research lab** where NautilusTrader v2 carries all backtest and trading
+  logic: Bybit and Binance perpetual L2 replays, Polymarket up/down markets,
+  US ETF and TAIFEX bars.
+- A **multi-strategy live node fleet** on NautilusTrader v2's Rust core,
+  deployed with Docker.
+- **Trading-host infrastructure as code** on AWS, with a latency harness.
 
 ## Competitions and research
 
