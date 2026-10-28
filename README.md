@@ -50,14 +50,11 @@ Most of my commits are in private repositories. What they contain:
   Bybit testnet.
 - **Trading host infrastructure as code** for AWS EC2, with a latency harness
   against the Tokyo public feeds.
-- **Market-making strategy ports** from hftbacktest and Hummingbot to the
-  NautilusTrader Rust engine, each validated action for action against a
-  recorded trace.
 
 ## Competitions and research
 
-- WorldQuant International Quant Championship 2026: top 1% of 150k+ teams,
-  finalist; offered a Research Consultant role.
+- WorldQuant International Quant Championship 2026: top 1% of 150k+ teams;
+  offered a Research Consultant role.
 - MSc thesis: entropy of weighted independent-set models on Hanoi graphs
   (combinatorics and probability), with computer-checked results regenerated
   from one configuration.
