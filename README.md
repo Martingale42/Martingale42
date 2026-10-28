@@ -1,10 +1,11 @@
 # CY Hsieh
 
-Trading systems engineer, Rust and Python. I build and run the infrastructure a
-systematic strategy needs: exchange connectivity, market-data pipelines,
-backtest-to-live parity, and the live node itself. MSc in Mathematics, National
-Chengchi University, finishing in 2027. Based in Taipei; open to Amsterdam,
-London and remote roles.
+Systems engineer, Rust and Python. I build and run infrastructure that has to
+stay up: trading systems (exchange connectivity, market-data pipelines, and a
+live trading node) and LLM inference (a self-hosted vLLM and llama.cpp stack,
+and contributions to a C++/CUDA inference engine). MSc in Mathematics,
+National Chengchi University, finishing in 2027. Based in Taipei; open to roles
+in Taiwan and Europe.
 
 ## Open source
 
